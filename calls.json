@@ -1,0 +1,92 @@
+[
+    {
+        "id": "call-042",
+        "agentId": "agent-001",
+        "agentName": "Sales Agent - DACH",
+        "company": "Müller GmbH",
+        "contact": "Hans Müller",
+        "direction": "outbound",
+        "status": "in-progress",
+        "startTime": "2026-02-17T10:41:00Z",
+        "duration": 245,
+        "language": "German",
+        "sentiment": "positive",
+        "outcome": null,
+        "transcript": [
+            {
+                "speaker": "agent",
+                "text": "Guten Tag, Herr Müller. Ich rufe an bezüglich unserer Lösung für Ihr Vertriebsteam.", "timestamp": 0, "sentiment":"neutral"
+            },
+            {
+                "speaker": "contact",
+                "text": "Ah ja, ich erinnere mich. Sie hatten letzte Woche eine E-Mail geschickt.", "timestamp": 8, "sentiment": "neutral" },
+            {
+                "speaker": "agent",
+                "text": "Genau. Ich wollte kurz besprechen, wie wir Ihre Outbound-Kapazität verdreifachen können.", "timestamp": 15, "sentiment":"positive"
+            },
+            {
+                "speaker": "contact",
+                "text": "Das klingt interessant. Erzählen Sie mir mehr.", "timestamp": 24, "sentiment": "positive" }
+            ]
+        },
+            {
+                "id": "call-041",
+                "agentId": "agent-004",
+                "agentName": "Sales Agent - UK",
+                "company": "TechFlow Inc",
+                "contact": "Sarah Chen",
+                "direction": "outbound",
+                "status": "completed",
+                "startTime": "2026-02-17T10:15:00Z",
+                "endTime": "2026-02-17T10:22:00Z",
+                "duration": 420,
+                "language": "English",
+                "sentiment": "positive",
+                "outcome": "meeting_booked"
+            },
+            {
+                "id": "call-040",
+                "agentId": "agent-002",
+                "agentName": "Sales Agent - Benelux",
+                "company": "Van der Berg BV",
+                "contact": "Jan van der Berg",
+                "direction": "outbound",
+                "status": "completed",
+                "startTime": "2026-02-17T09:45:00Z",
+                "endTime": "2026-02-17T09:50:00Z",
+                "duration": 300,
+                "language": "Dutch",
+                "sentiment": "negative",
+                "outcome": "not_interested"
+            },
+            {
+                "id": "call-039",
+                "agentId": "agent-001",
+                "agentName": "Sales Agent - DACH",
+                "company": "Weber Consulting",
+                "contact": "Lisa Weber",
+                "direction": "inbound",
+                "status": "completed",
+                "startTime": "2026-02-17T09:20:00Z",
+                "endTime": "2026-02-17T09:35:00Z",
+                "duration": 900,
+                "language": "German",
+                "sentiment": "positive",
+                "outcome": "meeting_booked"
+            },
+            {
+                "id": "call-038",
+                "agentId": "agent-005",
+                "agentName": "Sales Agent - DACH II",
+                "company": "Bauer Gruppe",
+                "contact": "Thomas Bauer",
+                "direction": "outbound",
+                "status": "completed",
+                "startTime": "2026-02-17T08:50:00Z",
+                "endTime": "2026-02-17T08:58:00Z",
+                "duration": 480,
+                "language": "German",
+                "sentiment": "neutral",
+                "outcome": "callback_requested"
+            }
+        ]

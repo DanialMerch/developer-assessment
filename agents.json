@@ -1,0 +1,98 @@
+[
+    {
+        "id": "agent-001",
+        "name": "Sales Agent - DACH",
+        "status": "active",
+        "language": "German",
+        "currentCall": {
+            "id": "call-042",
+            "company": "Müller GmbH",
+            "duration": 245,
+            "sentiment": "positive"
+        },
+        "metrics": {
+            "totalCalls": 1247,
+            "successRate": 0.73,
+            "avgCallDuration": 312,
+            "callsToday": 18,
+            "conversionRate": 0.12
+        },
+        "createdAt": "2025-11-15T09:00:00Z",
+        "lastActive": "2026-02-17T10:45:00Z"
+    },
+    {
+        "id": "agent-002",
+        "name": "Sales Agent - Benelux",
+        "status": "idle",
+        "language": "Dutch",
+        "currentCall": null,
+        "metrics": {
+            "totalCalls": 892,
+            "successRate": 0.68,
+            "avgCallDuration": 287,
+            "callsToday": 12,
+            "conversionRate": 0.09
+        },
+        "createdAt": "2025-12-01T09:00:00Z",
+        "lastActive": "2026-02-17T09:30:00Z"
+    },
+    {
+        "id": "agent-003",
+        "name": "Sales Agent - France",
+        "status": "error",
+        "language": "French",
+        "currentCall": null,
+        "metrics": {
+            "totalCalls": 654,
+            "successRate": 0.71,
+            "avgCallDuration": 298,
+            "callsToday": 0,
+            "conversionRate": 0.11
+        },
+        "error": "TTS service timeout - provider unreachable",
+        "createdAt": "2026-01-10T09:00:00Z",
+        "lastActive": "2026-02-17T08:15:00Z"
+    },
+    {
+        "id": "agent-004",
+        "name": "Sales Agent - UK",
+        "status": "active",
+        "language": "English",
+        "currentCall": {
+            "id": "call-043",
+            "company": "Brighton Solutions Ltd",
+            "duration": 89,
+            "sentiment": "neutral"
+        },
+        "metrics": {
+            "totalCalls": 2103,
+            "successRate": 0.76,
+            "avgCallDuration": 265,
+            "callsToday": 22,
+            "conversionRate": 0.15
+        },
+        "createdAt": "2025-10-01T09:00:00Z",
+        "lastActive": "2026-02-17T10:50:00Z"
+    },
+    {
+        "id": "agent-005",
+        "name": "Sales Agent - DACH II",
+        "status": "active",
+        "language": "German",
+        "currentCall": {
+            "id": "call-044",
+            "company": "Schmidt & Partner AG",
+            "duration": 178,
+            "sentiment": "positive"
+        },
+        "metrics": {
+            "totalCalls": 567,
+            "successRate": 0.69,
+            "avgCallDuration": 330,
+            "callsToday": 9,
+            "conversionRate": 0.10
+        },
+        "createdAt": "2026-01-20T09:00:00Z",
+        "lastActive": "2026-02-17T10:48:00Z"
+    }
+]

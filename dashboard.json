@@ -1,0 +1,15 @@
+{
+    "activeAgents": 3,
+    "totalAgents": 5,
+    "activeCalls": 3,
+    "callsToday": 61,
+    "avgCallDuration": 298,
+    "overallSuccessRate": 0.72,
+    "meetingsBooked": 8,
+    "languageDistribution": {
+        "German": 27,
+        "English": 22,
+        "Dutch": 12,
+        "French": 0
+    }
+}
